@@ -1,0 +1,585 @@
+{% load static %}
+<!doctype html>
+<html class="no-js" lang="zxx">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Artificial Intelligence</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="shortcut icon" type="image/x-icon" href="{% static 'affiliate/images/favicon.ico' %}">
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="{% static 'affiliate/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'affiliate/css/owl.carousel.min.css' %}">
+    <link rel="stylesheet" href="{% static 'affiliate/css/slicknav.css' %}">
+    <link rel="stylesheet" href="{% static 'affiliate/css/flaticon.css' %}">
+    <link rel="stylesheet" href="{% static 'affiliate/css/gijgo.css' %}">
+    <link rel="stylesheet" href="{% static 'affiliate/css/animate.min.css' %}">
+    <link rel="stylesheet" href="{% static 'affiliate/css/animated-headline.css' %}">
+    <link rel="stylesheet" href="{% static 'affiliate/css/magnific-popup.css' %}">
+    <link rel="stylesheet" href="{% static 'affiliate/css/fontawesome-all.min.css' %}">
+    <link rel="stylesheet" href="{% static 'affiliate/css/themify-icons.css' %}">
+    <link rel="stylesheet" href="{% static 'affiliate/css/slick.css' %">
+    <link rel="stylesheet" href="{% static 'affiliate/css/nice-select.css' %}">
+    <link rel="stylesheet" href="{% static 'affiliate/css/style.css' %}">
+</head>
+<body class="black-bg">
+    <!-- ? Preloader Start -->
+    <div id="preloader-active">
+        <div class="d-flex align-items-center justify-content-center">
+            <div class="preloader-inner position-relative">
+                <div class="preloader-circle"></div>
+                <div class="preloader-img pere-text">
+                    <img src="{% static 'affiliate/images/logo.jpg' %}" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Preloader Start -->
+    <header>
+        <!-- Header Start -->
+        <div class="header-area  header-transparent static-top fixed-top" role="navigation">
+            <div class="main-header">
+                <div class="container-fluid">
+                    <div class="menu-wrapper d-flex align-items-center justify-content-between">
+                        <!-- Logo -->
+                        <div class="logo">
+                            <a><img src="{% static 'affiliate/images/log1.png' %}" alt=""></a>
+                        </div>
+                        <!-- Main-menu -->
+                        <div class="main-menu f-right d-none d-lg-block">
+                            <nav>
+                                <ul id="navigation">
+                                    <li><a href ="{%url 'home' %}">HOME</a><ul>
+
+                                        </ul></li>
+                                    <li><a href = "{% url 'about'%}">About</a></li>
+
+                                    <li><a>SERVICES</a><ul class="submenu">
+                                            <li><a>WEB DEVELOPMENT</a></li>
+                                            <li><a>DATABASE MANAGEMENT</a></li>
+                                            <li><a>SPATIAL DATA ANALYSIS</a></li>
+                                            <li><a>DATA SCIENCE</a></li>
+                                            <li><a>APP DEVELOPMENT</a></li>
+
+                                        </ul></li>
+
+                                    <li><a href = "{% url 'contact'%}">Contact US</a>
+                                        <ul class="submenu">
+                                            <li><a>+27 6538 26626</a></li>
+
+
+                                        </ul>
+                                    </li>
+                                    <li><a>EMAIL</a><ul class="submenu">
+                                            <li><a>danielsnyasha@outlook.com</a></li>
+                                            <li><a>info@latenerezza.com</a></li>
+
+                                        </ul></li>
+
+                                </ul>
+                            </nav>
+                        </div>
+                        <!-- Header-btn -->
+                        <div class="header-btns d-none d-lg-block f-right">
+                           <a href = "{% url 'home'%}" class="btn">welcome</a><ul class = "submenu"
+
+                       </div>
+                       <!-- Mobile Menu -->
+                       <div class="col-12">
+                        <div class="mobile_menu d-block d-lg-none"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+</header>
+<main>
+    <!--? slider Area Start-->
+    <div class="slider-area position-relative" style="background-image: url({% static 'affiliate/images/backgrounds/xb.gif' %});">
+
+
+        <div class="slider-active">
+            <!-- Single Slider -->
+            <div class="single-slider slider-height d-flex align-items-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-9 col-lg-9 col-md-10">
+                            <div class="hero__caption">
+
+                                <small><span data-animation="fadeInLeft" data-delay="0.1s">TECHNOLOGY WITH</span></small>
+                                <small><h1 data-animation="fadeInLeft" style = "color: rgb(255,40,25);" data-delay="0.4s">LA TENEREZZA</h1></small>
+                                <small><h1 data-animation="fadeInLeft" style = "color: rgb(255,40,25);" data-delay="0.4s"></h1></small>
+                                <a class="" data-animation="fadeInLeft" data-delay="0.8s"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- slider Area End-->
+    <!-- Traning categories Start -->
+    <section class="traning-categories black-bg">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-6 col-lg-6">
+                    <div class="single-topic text-center mb-30">
+                        <div class="topic-img">
+                            <img src="{% static 'affiliate/images/findr.png' %}" alt="">
+                            <div class="topic-content-box">
+                                <div class="topic-content">
+                                    <h3>DRONES</h3>
+                                    <p>THIS IS QUALITY BEING REDEFINED <br> A DEVICE FOR CHAMPIONS.</p>
+                                    <a href= "https://amzn.to/2YPHrE6" class="border-btn">PURCHASE</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6">
+                    <div class="single-topic text-center mb-30">
+                        <div class="topic-img">
+                            <img src="{% static 'affiliate/images/cameras.jpg' %}" alt="">
+                            <div class="topic-content-box">
+                                <div class="topic-content">
+                                    <h3>CCTV SYSTEM</h3>
+                                    <p>THE ULTIMATE SAFETY EXPERIENCE <br> MONITOR FROM ANYWHERE IN THE WORLD.</p>
+                                    <a href="https://amzn.to/2GF9Zda" class="btn">BUY</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Traning categories End-->
+    <!--? Team -->
+    <section class="team-area fix">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="section-tittle text-center mb-55 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
+                        <h2 >SERVICES include:</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-cat text-center mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s" >
+                        <div class="cat-icon">
+                            <img src="{% static 'affiliate/images/mydb.png' %}" alt="">
+                        </div>
+                        <div class="cat-cap">
+                            <h5><a>SPATIAL ANALYSIS</a></h5>
+                            <p>ANALYSING GEOGRAPHIC DATA SOLVING COMPLEX PROBLEMS</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-cat text-center mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                        <div class="cat-icon">
+                            <img src="{% static 'affiliate/images/prog_trial.png' %}" alt="">
+                        </div>
+                        <div class="cat-cap">
+                            <h5><a>DATA ANALYTICS</a></h5>
+                            <p>ACCURATE RESULTS AND BETTER DECISION MAKING</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-cat text-center mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
+                        <div class="cat-icon">
+                            <img src="{% static 'affiliate/images/mydb.png' %}" alt="">
+                        </div>
+                        <div class="cat-cap">
+                            <h5><a>WEB DEVELOPMENT</a></h5>
+                            <p>CATCHY INTERNET WEBSITES</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Services End -->
+    <!--? Gallery Area Start -->
+    <!-- Gallery Area End -->
+    <!-- Courses area start -->
+    <section class="pricing-area section-padding40 fix" style="background-image: url({% static 'affiliate/images/background.png' %});">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="section-tittle text-center mb-55 wow fadeInUp" data-wow-duration="2s" data-wow-delay=".1s">
+                        <h2>SERVICE LIST</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="properties mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
+                        <div class="properties__card">
+                            <div class="about-icon">
+                                <img src="{% static 'affiliate/images/pric.svg' %}" alt="">
+                            </div>
+                            <div class="properties__caption">
+                                <span class="month">LIST</span>
+                                <p class="mb-25">(a)  <span></span></p>
+                                <div class="single-features">
+                                    <div class="features-icon">
+                                        <img src="{% static 'affiliate/images/check.svg' %}" alt="">
+                                    </div>
+                                    <div class="features-caption">
+                                        <p>MACHINE LEARNING </p>
+                                    </div>
+                                </div>
+                                <div class="single-features">
+                                    <div class="features-icon">
+                                        <img src="{% static 'affiliate/images/check.svg' %}" alt="">
+                                    </div>
+                                    <div class="features-caption">
+                                        <p>AI</p>
+                                    </div>
+                                </div>
+                                <div class="single-features">
+                                    <div class="features-icon">
+                                        <img src="{% static 'affiliate/images/check.svg' %}" alt="">
+                                    </div>
+                                    <div class="features-caption">
+                                        <p>DATA ANALYSIS</p>
+                                    </div>
+                                </div>
+                                <div class="single-features">
+                                    <div class="features-icon">
+                                        <img src="{% static 'affiliate/images/check.svg' %}" alt="">
+                                    </div>
+                                    <div class="features-caption">
+                                        <p>BIG DATA</p>
+                                    </div>
+                                </div>
+                                <div class="single-features mb-20">
+                                    <div class="features-icon">
+                                        <img src="{% static 'affiliate/images/check.svg' %}" alt="">
+                                    </div>
+                                    <div class="features-caption">
+                                        <p>ALGORITHMS</p>
+                                    </div>
+                                </div>
+                                <a href = "{% url 'contact'%}" class="border-btn border-btn2">ENQUIRE</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="properties mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
+                        <div class="properties__card">
+                            <div class="about-icon">
+                                <img src="{% static 'affiliate/images/prie.svg' %}" alt="">
+                            </div>
+                            <div class="properties__caption">
+                                <span class="month">LIST</span>
+                                <p class="mb-25">B  <span></span></p>
+                                <div class="single-features">
+                                    <div class="features-icon">
+                                        <img src="{% static 'affiliate/images/check.svg' %}" alt="">
+                                    </div>
+                                    <div class="features-caption">
+                                        <p>GIS </p>
+                                    </div>
+                                </div>
+                                <div class="single-features">
+                                    <div class="features-icon">
+                                        <img src="{% static 'affiliate/images/check.svg' %}" alt="">
+                                    </div>
+                                    <div class="features-caption">
+                                        <p>SPATIAL ANALYSIS</p>
+                                    </div>
+                                </div>
+                                <div class="single-features">
+                                    <div class="features-icon">
+                                        <img src="{% static 'affiliate/images/check.svg' %}" alt="">
+                                    </div>
+                                    <div class="features-caption">
+                                        <p>REMOTE SENSING</p>
+                                    </div>
+                                </div>
+                                <div class="single-features">
+                                    <div class="features-icon">
+                                        <img src="{% static 'affiliate/images/check.svg' %}" alt="">
+                                    </div>
+                                    <div class="features-caption">
+                                        <p>WEB DEVELOPMENT</p>
+                                    </div>
+                                </div>
+                                <div class="single-features mb-20">
+                                    <div class="features-icon">
+                                        <img src="{% static 'affiliate/images/check.svg' %}" alt="">
+                                    </div>
+                                    <div class="features-caption">
+                                        <p>WEB DESIGN</p>
+                                    </div>
+                                </div>
+                                <a href = "{% url 'contact'%}" class="border-btn border-btn2">ENQUIRE</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="properties mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
+                        <div class="properties__card">
+                            <div class="about-icon">
+                                <img src="{% static 'affiliate/images/pric.svg' %}" alt="">
+                            </div>
+                            <div class="properties__caption">
+                                <span class="month">LIST</span>
+                                <p class="mb-25">C  <span></span></p>
+                                <div class="single-features">
+                                    <div class="features-icon">
+                                        <img src="{% static 'affiliate/images/check.svg' %}" alt="">
+                                    </div>
+                                    <div class="features-caption">
+                                        <p>JAVA/PYTHON </p>
+                                    </div>
+                                </div>
+                                <div class="single-features">
+                                    <div class="features-icon">
+                                        <img src="{% static 'affiliate/images/check.svg' %}" alt="">
+                                    </div>
+                                    <div class="features-caption">
+                                        <p>APP DEVELOPMENT</p>
+                                    </div>
+                                </div>
+                                <div class="single-features">
+                                    <div class="features-icon">
+                                        <img src="{% static 'affiliate/images/check.svg' %}" alt="">
+                                    </div>
+                                    <div class="features-caption">
+                                        <p>IT SERVICES</p>
+                                    </div>
+                                </div>
+                                <div class="single-features">
+                                    <div class="features-icon">
+                                        <img src="{% static 'affiliate/images/check.svg' %}" alt="">
+                                    </div>
+                                    <div class="features-caption">
+                                        <p>DATABASE MANAGEMENT</p>
+                                    </div>
+                                </div>
+                                <div class="single-features mb-20">
+                                    <div class="features-icon">
+                                        <img src="{% static 'affiliate/images/check.svg' %}" alt="">
+                                    </div>
+                                    <div class="features-caption">
+                                        <p>TRAINING</p>
+                                    </div>
+                                </div>
+                                <a href = "{% url 'contact'%}" class="border-btn border-btn2">ENQUIRE</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Courses area End -->
+    <!--? About Area-2 Start -->
+    <section class="about-area2 fix pb-padding pt-50 pb-80">
+        <div class="support-wrapper align-items-center">
+            <div class="right-content2">
+                <!-- img -->
+                <div class="right-img wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
+                    <img src="{% static 'affiliate/images/danielsrain.png' %}" alt="">
+                </div>
+            </div>
+            <div class="left-content2">
+                <!-- section tittle -->
+                <div class="section-tittle2 mb-20 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
+                    <div class="front-text">
+                        <h2 class="">ABOUT US</h2>
+                       <p>THE WORLD IS SLOWLY MOVING TOWARDS ARTIFICIAL INTELLIGENCE AND THIS IS DEMONSTRATED BY MACHINES, UNLIKE THE NATURAL INTELLIGENCE DISPLAYED BY HUMANS AND ANIMALS. IN (AI) WE BUILD DEVICES WHICH PERCEIVE THEIR ENVIRONMENT AND TAKE ACTIONS WHICH MAXIMIZES THE CHANCE OF SUCCESSFULLY ACHIEVING ITS GOALS.</p>
+                        <p class="mb-40">WE ALSO OFFER SERVICES LIKE SPATIAL DATA EXPLORATION WHERE WE ANALYSE GEOGRAPHIC DATA, APPLICATION DEVELOPMENT FOR MOBILE AND COMPUTER DEVICES, DATABASE MANAGEMENT FOR PROPERLY ORGANISING AND SECURING COMPANY DATA. WE ALSO FOCUS GREATLY ON WEB DEVELOPMENT AND WEB DESIGN, WHERE WE CRAFT AND CREATE FULLY FUNCTIONAL WEBSITES.</p>
+                        <p class="mb-40">FOR ANY ANSWERS YOU MAY NEED REGARDING TRAINING OR CONSULTANCY IN ANY OF THE RELATED FIELDS, PLEASE CONTACT US. WE WILL ASSIST IN MAKING YOUR WORLD A BETTER PLACE.</p>
+                        <a href="{% url 'contact'%}" class="border-btn">get in touch for more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Area End -->
+
+    <!-- Blog Area End -->
+    <!--? video_start -->
+
+    <!-- video_end -->
+    <!-- ? services-area -->
+    <section class="services-area">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-8">
+                    <div class="single-services mb-40 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
+                        <div class="features-icon">
+                            <img src="{% static 'affiliate/images/icon1.svg' %}" alt="">
+                        </div>
+                        <div class="features-caption">
+                            <h3>Location</h3>
+                            <p>5 Railway Street, The Orchards Pretoria South Africa(ZA) </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8">
+                    <div class="single-services mb-40 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
+                        <div class="features-icon">
+                            <img src="{% static 'affiliate/images/icon2.svg' %}" alt="">
+                        </div>
+                        <div class="features-caption">
+                            <h3>Phone</h3>
+                            <p>(+27)65 382 6626</p>
+                            <p> (+27)81 001 9204</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-8">
+                    <div class="single-services mb-40 wow fadeInUp" data-wow-duration="2s" data-wow-delay=".4s">
+                        <div class="features-icon">
+                            <img src="{% static 'affiliate/images/icon3.svg' %}" alt="">
+                        </div>
+                        <div class="features-caption">
+                            <h3>Email</h3>
+                            <p>danielsnyasha@outlook.com</p>
+                            <p>nyashamusanhu@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<footer>
+    <!--? Footer Start-->
+    <div class="footer-area black-bg">
+        <div class="container">
+            <div class="footer-top footer-padding">
+                <!-- Footer Menu -->
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="single-footer-caption mb-50 text-center">
+                            <!-- logo -->
+                            <div class="footer-logo wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
+                                <a href="index.html"><img src="{% static 'affiliate/images/4.jpg' %}" alt=""></a>
+                            </div>
+                            <!-- Menu -->
+                            <!-- Header Start -->
+                            <div class="header-area main-header2 wow fadeInUp" data-wow-duration="2s" data-wow-delay=".4s">
+                                <div class="main-header main-header2">
+                                    <div class="menu-wrapper menu-wrapper2">
+                                        <!-- Main-menu -->
+                                        <div class="main-menu main-menu2 text-center">
+                                            <nav>
+                                                <ul>
+                                                    <li><a href="{% url 'home'%}">HOME</a></li>
+                                                    <li><a href="{% url 'about'%}">ABOUT</a></li>
+                                                    <li><a href="{% url 'contact'%}">CONTACT US</a></li>
+                                                    <li><a>SERVICES</a><ul class="submenu">
+                                                    <li><a>WEB DEVELOPMENT</a></li>
+                                                    <li><a>DATABASE MANAGEMENT</a></li>
+                                                    <li><a>SPATIAL DATA ANALYSIS</a></li>
+                                                    <li><a>DATA SCIENCE</a></li>
+                                                    <li><a>APP DEVELOPMENT</a></li>
+
+                                                    <li><a>EMAIL</a><ul class="submenu">
+
+
+                                                        <li><a>danielsnyasha@outlook.com</a></li>
+                                                        <li><a>info@latenerezza.com</a></li>
+
+                                                        </ul></li>
+
+                                                </ul>
+                                            </nav>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Header End -->
+                            <!-- social -->
+                            <div class="footer-social mt-30 wow fadeInUp" data-wow-duration="3s" data-wow-delay=".8s">
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="https://bit.ly/sai4ull"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <div class="row d-flex align-items-center">
+                    <div class="col-lg-12">
+                        <div class="footer-copy-right text-center">
+                            <p><!- class="m-0 text-center text-white">Copyright &copy; Your Website 2020</p></script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <!-- Footer End-->
+  </footer>
+  <!-- Scroll Up -->
+  <div id="back-top" >
+    <a title="Go to Top" href="#"> <i class="fas fa-level-up-alt"></i></a>
+</div>
+
+<!-- JS here -->
+
+<script src="{% static 'affiliate/js/vendor/modernizr-3.5.0.min.js' %}"></script>
+<!-- Jquery, Popper, Bootstrap -->
+<script src="{% static 'affiliate/js/vendor/jquery-1.12.4.min.js' %}"></script>
+<script src="{% static 'affiliate/js/popper.min.js' %}"></script>
+<script src="{% static 'affiliate/js/bootstrap.min.js' %}"></script>
+<!-- Jquery Mobile Menu -->
+<script src="{% static 'affiliate/js/jquery.slicknav.min.js' %}"></script>
+
+<!-- Jquery Slick , Owl-Carousel Plugins -->
+<script src="{% static 'affiliate/js/owl.carousel.min.js' %}"></script>
+<script src="{% static 'affiliate/js/slick.min.js' %}"></script>
+<!-- One Page, Animated-HeadLin -->
+<script src="{% static 'affiliate/js/wow.min.js' %}"></script>
+<script src="{% static 'affiliate/js/animated.headline.js' %}"></script>
+<script src="{% static 'affiliate/js/jquery.magnific-popup.js' %}"></script>
+
+<!-- Date Picker -->
+<script src="{% static 'affiliate/js/gijgo.min.js' %}"></script>
+<!-- Nice-select, sticky -->
+<script src="{% static 'affiliate/js/jquery.nice-select.min.js' %}"></script>
+<script src="{% static 'affiliate/js/jquery.sticky.js' %}"></script>
+
+<!-- counter , waypoint,Hover Direction -->
+<script src="{% static 'affiliate/js/jquery.counterup.min.js' %}"></script>
+<script src="{% static 'affiliate/js/waypoints.min.js' %}"></script>
+<script src="{% static 'affiliate/js/jquery.countdown.min.js' %}"></script>
+<script src="{% static 'affiliate/js/hover-direction-snake.min.js' %}"></script>
+
+<!-- contact js -->
+<script src="{% static 'affiliate/js/contact.js' %}"></script>
+<script src="{% static 'affiliate/js/jquery.form.js' %}"></script>
+<script src="{% static 'affiliate/js/jquery.validate.min.js' %}"></script>
+<script src="{% static 'affiliate/js/mail-script.js' %}"></script>
+<script src="{% static 'affiliate/js/jquery.ajaxchimp.min.js' %}"></script>
+
+<!-- Jquery Plugins, main Jquery -->
+<script src="{% static 'affiliate/js/plugins.js"></script>
+<script src="{% static 'affiliate/js/main.js"></script>
+
+<script src= "{% static 'affiliate/vendor/jquery/jquery.min.js' %}"></script>
+<script src= "{% static 'affiliate/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+
+
+
+</body>
+</html>
+
